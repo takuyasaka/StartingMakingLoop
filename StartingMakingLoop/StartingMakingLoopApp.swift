@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-z
 @main
 struct StartingMakingLoopApp: App {
     var body: some Scene {

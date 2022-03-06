@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("井本社長のファイルにloopできた!!!!!")
-            .padding()
+        VStack {
+            DatePicker(selection: .constant(Date()), label: { Text("Calender") })
+                .datePickerStyle(GraphicalDatePickerStyle())
+        }
     }
 }
 
