@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            DatePicker(selection: .constant(Date()), label: { Text("おはようございます") })
+            DatePicker(selection: .constant(Date()), label: { Text("リッキー") })
                 .datePickerStyle(GraphicalDatePickerStyle())
         }
     }
